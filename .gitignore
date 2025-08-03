@@ -1,0 +1,76 @@
+# =========================================
+# Dependencies
+# =========================================
+# Node.js 모듈 폴더
+node_modules/
+# yarn berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# =========================================
+# Build & Production
+# =========================================
+# React 빌드 결과물
+build/
+# Express 관련 빌드 폴더 (필요시)
+dist/
+
+# =========================================
+# Logs
+# =========================================
+# 로그 파일
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================
+# Environment Variables
+# =========================================
+# 환경변수 파일 (보안에 민감한 정보 포함)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================================
+# OS & Editor specific
+# =========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# =========================================
+# Temporary files
+# =========================================
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# =========================================
+# Test reports
+# =========================================
+coverage/
+.nyc_output/
